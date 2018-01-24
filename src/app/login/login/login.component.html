@@ -1,18 +1,28 @@
-<md-card>
-  <md-card-header>
-    <md-card-title>登陆：</md-card-title>
-  </md-card-header>
-  <md-card-content>
-    <md-input-container>
-      <span mdPrefix>google</span>
-      <input type="text" mdInput placeholder="您的email">
-      <span mdSuffix>gmail.com</span>
-      <md-hint>必填项</md-hint>
-      <md-error>错误了</md-error>
-    </md-input-container>
-  </md-card-content>
-  <md-card-actions>
-    <p>还没有账户？ <a href="">注册</a></p>
-    <p>忘记密码？ <a href="">找回</a></p>
-  </md-card-actions>
-</md-card>
+<form>
+  <md-card>
+    <md-card-header>
+      <md-card-title>登陆：</md-card-title>
+    </md-card-header>
+    <md-card-content>
+      <md-input-container class="full-width">
+        <input type="text" mdInput placeholder="您的email">
+      </md-input-container>
+      <md-input-container class="full-width">
+        <input type="password" mdInput placeholder="您的密码">
+      </md-input-container>
+      <button md-raised-button type="button">登陆</button>
+    </md-card-content>
+    <md-card-actions class="text-right">
+      <p>还没有账户？ <a href="">注册</a></p>
+      <p>忘记密码？ <a href="">找回</a></p>
+    </md-card-actions>
+  </md-card>
+  <md-card>
+    <md-card-header>
+      <md-card-title>每日佳句</md-card-title>
+      <md-card-subtitle>时间就是金钱，我的朋友</md-card-subtitle>
+    </md-card-header>
+    <img md-card-image src="../../../assets/time-is-money.jpg">
+    <md-card-content>time is money</md-card-content>
+  </md-card>
+</form>

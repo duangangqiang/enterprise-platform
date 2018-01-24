@@ -17,4 +17,8 @@ export class HeaderComponent implements OnInit {
   openSideBar() {
     this.toggle.emit();
   }
+
+  onChange(check) {
+
+  }
 }
